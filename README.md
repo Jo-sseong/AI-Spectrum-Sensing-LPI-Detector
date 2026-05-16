@@ -19,3 +19,35 @@
 - ONNX 변환을 통해 Raspberry Pi 환경에서 온디바이스 추론 수행
 - Flask 기반 대시보드를 통해 실시간 탐지 결과 시각화
 
+## 실험
+
+<p align="center">
+  <img width="900" alt="Experiment setup" src="https://github.com/user-attachments/assets/d26886b5-194d-4ec6-beb5-3009cbccd41e" />
+</p>
+
+<p align="center">
+  <b>Figure 1. 실험 구성도</b>
+</p>
+
+송신부는 Signal Generator를 이용하여 ms 단위의 주파수 호핑 신호를 낮은 전력으로 송출함으로써 LPI(Low Probability of Intercept) 환경을 구성하였습니다.  
+수신부에는 Spectrum Analyzer와 제안 시스템의 탐지기를 동일한 위치에 배치하여, 상용 스펙트럼 분석기와 제안 시스템의 탐지 결과를 비교하였습니다.
+
+<p align="center">
+  <img width="600" alt="Receiving environment" src="https://github.com/user-attachments/assets/42249546-59e1-4736-8aed-c0bca6d898ac" />
+</p>
+
+<p align="center">
+  <b>Figure 2. 수신 환경</b>
+</p>
+
+실험 환경은 다음 두 가지 조건으로 구성하였습니다.
+
+| 조건 | 설명 | 목적 |
+|---|---|---|
+| **Analyzer Detectable Scenario** | Spectrum Analyzer에서 송신 신호가<br>육안으로 확인되는 조건 | 일반적인 수신 환경에서 제안 시스템의 탐지 결과 확인 |
+| **Analyzer Undetectable Scenario** | Spectrum Analyzer에서 송신 신호가<br>Noise Floor와 유사하여 육안 식별이 어려운 조건 | LPI 환경에서 제안 시스템의 탐지 성능 확인 |
+
+## 실험 영상
+
+ - Analyzer Detectable Scenario (https://youtu.be/VMXERdvfJ80?si=uXlyPM0fmPjn3rhp)
+ - Analyzer Undetectable Scenario (https://youtu.be/O74QrTFrt00?si=IwmjsKMl51plVzkS)
