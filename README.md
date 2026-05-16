@@ -44,7 +44,7 @@
 
 | 조건 | 설명 | 목적 |
 |---|---|---|
-| **Analyzer Detectable Scenario** | Spectrum Analyzer에서 송신 신호가<br>육안으로 확인되는 조건 | 일반적인 수신 환경에서 제안 시스템의 탐지 결과 확인 |
+| **Analyzer Detectable Scenario** | Spectrum Analyzer에서 송신 신호가<br>육안으로 확인되는 조건 | 일반적인 수신 환경에서 <br>제안 시스템의 탐지 결과 확인 |
 | **Analyzer Undetectable Scenario** | Spectrum Analyzer에서 송신 신호가<br>Noise Floor와 유사하여 육안 식별이 어려운 조건 | LPI 환경에서 제안 시스템의 탐지 성능 확인 |
 
 ## 실험 영상
